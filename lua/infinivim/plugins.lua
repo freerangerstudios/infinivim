@@ -25,5 +25,6 @@ require("lazy").setup({
     end,
   },
   { "nvim-treesitter/nvim-treesitter" },
-  { "akinsho/bufferline.nvim" }
+  { "akinsho/bufferline.nvim" },
+  { "nvim-lualine/lualine.nvim" }
 })
