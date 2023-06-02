@@ -23,5 +23,7 @@ require("lazy").setup({
       }
       require('bamboo').load()
     end,
-  }
+  },
+  { "nvim-treesitter/nvim-treesitter" },
+  { "akinsho/bufferline.nvim" }
 })
