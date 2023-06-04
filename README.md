@@ -1,3 +1,3 @@
 # Infinivim
 
-A highly peronal, opinionated neovim configuration. Far from complete.
+A highly personal, opinionated neovim configuration. Far from complete.
