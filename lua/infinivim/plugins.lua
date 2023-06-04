@@ -12,7 +12,6 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
-  {"catppuccin/nvim", name = "catppuccin"},
   {
     'ribru17/bamboo.nvim',
     lazy = false,
@@ -26,5 +25,6 @@ require("lazy").setup({
   },
   { "nvim-treesitter/nvim-treesitter" },
   { "akinsho/bufferline.nvim" },
-  { "nvim-lualine/lualine.nvim" }
+  { "nvim-lualine/lualine.nvim" },
+  { "catppuccin/nvim", name = "catppuccin" }
 })
