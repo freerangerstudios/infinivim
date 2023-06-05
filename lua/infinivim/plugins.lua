@@ -25,4 +25,21 @@ require("lazy").setup({
 
     -- Colorschemes
     { "catppuccin/nvim", name = "catppuccin" },
+
+    -- Completion, lsp etc
+    {
+        "williamboman/mason.nvim",
+        build = ":MasonUpdate" -- :MasonUpdate updates registry contents
+    },
+    { "neovim/nvim-lspconfig" },
+    { "williamboman/mason-lspconfig.nvim" },
+    { "jose-elias-alvarez/null-ls.nvim"},
+    { "RRethy/vim-illuminate" },
+
+    { "hrsh7th/nvim-cmp" }, -- The completion plugin
+    { "hrsh7th/cmp-buffer" }, -- buffer completions
+    { "hrsh7th/cmp-path" }, -- path completions
+	{ "saadparwaiz1/cmp_luasnip" }, -- snippet completions
+	{ "hrsh7th/cmp-nvim-lsp" },
+	{ "hrsh7th/cmp-nvim-lua" }
 })
