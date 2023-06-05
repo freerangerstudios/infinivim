@@ -12,19 +12,17 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
-  {
-    'ribru17/bamboo.nvim',
-    lazy = false,
-    priority = 1000,
-    config = function()
-      require('bamboo').setup {
-        -- optional configuration here
-      }
-      require('bamboo').load()
-    end,
-  },
-  { "nvim-treesitter/nvim-treesitter" },
-  { "akinsho/bufferline.nvim" },
-  { "nvim-lualine/lualine.nvim" },
-  { "catppuccin/nvim", name = "catppuccin" }
+    -- Plugins
+    { "nvim-lua/plenary.nvim" },
+    { "nvim-treesitter/nvim-treesitter" },
+    { "akinsho/bufferline.nvim" },
+    { "nvim-lualine/lualine.nvim" },
+    { "windwp/nvim-autopairs" },
+    { "nvim-tree/nvim-web-devicons" },
+    { "nvim-tree/nvim-tree.lua" },
+    { "lukas-reineke/indent-blankline.nvim" },
+    { "goolord/alpha-nvim" },
+
+    -- Colorschemes
+    { "catppuccin/nvim", name = "catppuccin" },
 })
